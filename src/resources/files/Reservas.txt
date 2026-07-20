@@ -1,0 +1,3 @@
+1001;18/10/2026;Juan Perez;2;Paquete;Paquete Sur Extremo;Confirmada;300000
+1002;20/10/2026;Ana Lopez;4;ExcursionCultural;City Tour Valparaíso;Pendiente;72000
+1003;12/12/2026;Carlos Soto;3;PaseoLacustre;Paseo Todos los Santos;Cancelada;75000

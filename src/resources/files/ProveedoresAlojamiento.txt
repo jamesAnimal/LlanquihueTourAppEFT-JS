@@ -1,0 +1,3 @@
+Hotel Vista Lago;78999000-1;+56911223344;Costanera;120;Frutillar;Región de Los Lagos;Noche Habitación Doble;45000;Hotel;20;Desayuno
+Cabañas del Bosque;79111222-3;+56955667788;Camino Volcán;340;Pucón;Región de La Araucanía;Arriendo Cabaña;60000;Cabaña;5;Ninguna
+Hostal del Norte;75222333-4;+56988990011;Centro;560;San Pedro de Atacama;Región de Antofagasta;Noche Habitación Simple;25000;Hostal;15;Media Pensión

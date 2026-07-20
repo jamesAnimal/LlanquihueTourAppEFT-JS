@@ -1,0 +1,19 @@
+# Compiled Java classes
+*.class
+
+# IntelliJ IDEA files and folders
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compilation output folders
+out/
+bin/
+
+# OS hidden files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

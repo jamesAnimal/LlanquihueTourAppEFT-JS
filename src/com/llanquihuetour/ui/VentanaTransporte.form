@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.llanquihuetour.ui.VentanaTransporte">
+  <grid id="27dc6" binding="ventanaTransporte" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="551" height="702"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d15d" class="javax.swing.JLabel" binding="lblNombre">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nombre: "/>
+        </properties>
+      </component>
+      <component id="2e012" class="javax.swing.JLabel" binding="lblRut">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="R.U.T: "/>
+        </properties>
+      </component>
+      <component id="3df3" class="javax.swing.JLabel" binding="lblTelefono">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Teléfono: "/>
+        </properties>
+      </component>
+      <component id="f3f02" class="javax.swing.JLabel" binding="lblRegion">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Región: "/>
+        </properties>
+      </component>
+      <component id="166e3" class="javax.swing.JLabel" binding="lblCiudad">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Ciudad: "/>
+        </properties>
+      </component>
+      <component id="d5f3b" class="javax.swing.JLabel" binding="lblCalle">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Calle: "/>
+        </properties>
+      </component>
+      <component id="ba5ec" class="javax.swing.JLabel" binding="lblNumeroCasa">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Número de Casa: "/>
+        </properties>
+      </component>
+      <component id="30dc5" class="javax.swing.JLabel" binding="lblSitioWeb">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Sitio Web: "/>
+        </properties>
+      </component>
+      <component id="c91e7" class="javax.swing.JLabel" binding="lblTarifa">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Tarifa ($): "/>
+        </properties>
+      </component>
+      <component id="c740c" class="javax.swing.JLabel" binding="lblTipoVehiculos">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Tipo de Vehículos: "/>
+        </properties>
+      </component>
+      <component id="9d382" class="javax.swing.JLabel" binding="lblCantidadVehiculos">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cantidad de Vehículos: "/>
+        </properties>
+      </component>
+      <component id="14ad5" class="javax.swing.JLabel" binding="lblPasajeros">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Pasajeros por Vehículo: "/>
+        </properties>
+      </component>
+      <component id="84c7" class="javax.swing.JTextField" binding="txtNombre">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="e1401" class="javax.swing.JTextField" binding="txtRut">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="4db97" class="javax.swing.JTextField" binding="txtTelefono">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="9ec71" class="javax.swing.JComboBox" binding="cmbRegion">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="655d8" class="javax.swing.JComboBox" binding="cmbCiudad">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="2015f" class="javax.swing.JTextField" binding="txtCalle">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="874da" class="javax.swing.JTextField" binding="txtNumeroCasa">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="5fcc0" class="javax.swing.JTextField" binding="txtSitioWeb">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="3371a" class="javax.swing.JTextField" binding="txtTarifa">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="7ee62" class="javax.swing.JTextField" binding="txtTipoVehiculos">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="9a97d" class="javax.swing.JTextField" binding="txtCantidadVehiculos">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="6e92c" class="javax.swing.JTextField" binding="txtPasajeros">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <grid id="48773" binding="contenedorBtns" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d0302" class="javax.swing.JButton" binding="btnRegistrarTransporte">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Registrar Transporte"/>
+            </properties>
+          </component>
+          <component id="73774" class="javax.swing.JButton" binding="btnCancelarRegistro">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Cancelar Registro"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

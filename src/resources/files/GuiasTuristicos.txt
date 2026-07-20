@@ -1,0 +1,3 @@
+Pedro Ruiz;12222333-4;+56922223333;San Martin;400;Puerto Varas;Región de Los Lagos;Español e Inglés;Sur de Chile;GT-001
+Camila Vega;13333444-5;+56933334444;Pedro de Valdivia;500;Pucón;Región de La Araucanía;Inglés y Francés;Araucanía;GT-002
+Felipe Tapia;14444555-6;+56944445555;Baquedano;600;Iquique;Región de Tarapacá;Español;Norte Grande;GT-003

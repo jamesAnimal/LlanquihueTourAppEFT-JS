@@ -1,0 +1,3 @@
+Luis Gomez;15555666-7;+56955556666;Arturo Prat;100;Santiago;Región Metropolitana;Vendedor;Diurno;600000.0
+Maria Torres;16666777-8;+56966667777;O'Higgins;200;Viña del Mar;Región de Valparaíso;Atención Cliente;Nocturno;550000.0
+Jorge Diaz;17777888-9;+56977778888;Bulnes;300;Temuco;Región de La Araucanía;Supervisor;Diurno;800000.0

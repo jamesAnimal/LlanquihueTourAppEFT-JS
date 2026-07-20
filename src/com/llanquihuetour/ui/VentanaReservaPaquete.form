@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.llanquihuetour.ui.VentanaReservaPaquete">
+  <grid id="27dc6" binding="ventanaReservaPaquete" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="538" height="415"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="9a7fa" class="javax.swing.JLabel" binding="lblNumero">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Número de Reserva: "/>
+        </properties>
+      </component>
+      <component id="c09ff" class="javax.swing.JLabel" binding="lblFecha">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Fecha: "/>
+        </properties>
+      </component>
+      <component id="8de6c" class="javax.swing.JLabel" binding="lblCliente">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cliente: "/>
+        </properties>
+      </component>
+      <component id="c685f" class="javax.swing.JLabel" binding="lblPaqueteAsociado">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Paquete Turístico: "/>
+        </properties>
+      </component>
+      <component id="e74f9" class="javax.swing.JLabel" binding="lblCantidadPasajeros">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cantidad de Pasajeros: "/>
+        </properties>
+      </component>
+      <component id="72764" class="javax.swing.JLabel" binding="lblEstado">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Estado de la Reserva: "/>
+        </properties>
+      </component>
+      <component id="c2c1" class="javax.swing.JLabel" binding="lblTotalPagar">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Total a Pagar ($): "/>
+        </properties>
+      </component>
+      <component id="d0328" class="javax.swing.JTextField" binding="txtNumero">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="c6f16" class="javax.swing.JTextField" binding="txtFecha">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="9bb49" class="javax.swing.JComboBox" binding="cmbCliente">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="da88a" class="javax.swing.JComboBox" binding="cmbPaqueteAsociado">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="95222" class="javax.swing.JTextField" binding="txtCantidadPasajeros">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="cdf7b" class="javax.swing.JComboBox" binding="cmbEstado">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="6b9ff" class="javax.swing.JLabel" binding="lblResultadoTotal">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="0"/>
+        </properties>
+      </component>
+      <grid id="b2124" binding="contenedorBtns" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a1163" class="javax.swing.JButton" binding="btnConfirmarReserva">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Confirmar Reserva"/>
+            </properties>
+          </component>
+          <component id="6ca46" class="javax.swing.JButton" binding="btnCancelarReserva">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Cancelar Reserva"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

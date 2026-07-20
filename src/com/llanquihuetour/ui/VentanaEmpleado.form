@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.llanquihuetour.ui.VentanaEmpleado">
+  <grid id="27dc6" binding="ventanaEmpleado" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="526" height="1584"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="bd04d" class="javax.swing.JLabel" binding="lblNombre">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Nombre: "/>
+        </properties>
+      </component>
+      <component id="c7d81" class="javax.swing.JLabel" binding="lblRut">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="R.U.T: "/>
+        </properties>
+      </component>
+      <component id="8ed47" class="javax.swing.JLabel" binding="lblTelefono">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Telefono: "/>
+        </properties>
+      </component>
+      <component id="ac5dd" class="javax.swing.JLabel" binding="lblRegion">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Region: "/>
+        </properties>
+      </component>
+      <component id="55c87" class="javax.swing.JLabel" binding="lblCiudad">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="ciudad: "/>
+        </properties>
+      </component>
+      <component id="694be" class="javax.swing.JLabel" binding="lblCalle">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Calle: "/>
+        </properties>
+      </component>
+      <component id="2805d" class="javax.swing.JLabel" binding="lblNumeroCasa">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Numero de Casa: "/>
+        </properties>
+      </component>
+      <component id="6ce54" class="javax.swing.JLabel" binding="lblCargo">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cargo: "/>
+        </properties>
+      </component>
+      <component id="7b44a" class="javax.swing.JLabel" binding="lblTurno">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Turno: "/>
+        </properties>
+      </component>
+      <component id="6ac0d" class="javax.swing.JLabel" binding="lblSueldo">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Sueldo: "/>
+        </properties>
+      </component>
+      <component id="dc707" class="javax.swing.JTextField" binding="txtNombre">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="88973" class="javax.swing.JTextField" binding="txtRut">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="64233" class="javax.swing.JTextField" binding="txtTelefono">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="2ee00" class="javax.swing.JComboBox" binding="cmbRegion">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="ea936" class="javax.swing.JComboBox" binding="cmbCiudad">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="49c77" class="javax.swing.JTextField" binding="txtCalle">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="1632e" class="javax.swing.JTextField" binding="txtNumero">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="3e243" class="javax.swing.JTextField" binding="txtCargo">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="30e9b" class="javax.swing.JTextField" binding="txtTurno">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <component id="d7941" class="javax.swing.JTextField" binding="txtSueldo">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="350" height="30"/>
+          <minimumSize width="350" height="30"/>
+          <preferredSize width="350" height="30"/>
+        </properties>
+      </component>
+      <grid id="f78d5" binding="contenedorBtns" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c09e3" class="javax.swing.JButton" binding="btnRegistrarEmpleado">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Registrar Cliente"/>
+            </properties>
+          </component>
+          <component id="32658" class="javax.swing.JButton" binding="btnCancelarRegistro">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Cancelar Registro"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

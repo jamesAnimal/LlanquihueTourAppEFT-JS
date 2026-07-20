@@ -1,0 +1,3 @@
+Juan Perez;12345678-5;+56912345678;Av Siempre Viva;123;Santiago;Región Metropolitana;30;Español;Maria +56987654321
+Ana Lopez;11223344-5;+56922334455;Calle Falsa;456;Valparaíso;Región de Valparaíso;25;Inglés;Pedro +56911223344
+Carlos Soto;9876543-2;+56999887766;Los Pinos;789;Puerto Montt;Región de Los Lagos;45;Alemán;Laura +56977665544

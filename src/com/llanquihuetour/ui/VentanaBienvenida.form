@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.llanquihuetour.ui.VentanaBienvenida">
+  <grid id="27dc6" binding="ventanaBienvenida" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="600" height="500"/>
+    </constraints>
+    <properties>
+      <maximumSize width="600" height="500"/>
+      <minimumSize width="600" height="500"/>
+      <preferredSize width="600" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="9bed2">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="5d396">
+        <constraints>
+          <grid row="3" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="2897" class="javax.swing.JLabel" binding="lblLogo">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="desc1" class="javax.swing.JLabel" binding="lblDescripcion1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="2" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Bienvenido al Sistema de Gestión de Llanquihue Tour."/>
+        </properties>
+      </component>
+      <component id="desc2" class="javax.swing.JLabel" binding="lblDescripcion2">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="10" bottom="2" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Esta plataforma permite administrar el registro de clientes,"/>
+        </properties>
+      </component>
+      <component id="desc3" class="javax.swing.JLabel" binding="lblDescripcion3">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="10" bottom="2" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="coordinar el personal y recursos internos, y gestionar"/>
+        </properties>
+      </component>
+      <component id="desc4" class="javax.swing.JLabel" binding="lblDescripcion4">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="2" left="10" bottom="15" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="los servicios turísticos de la agencia."/>
+        </properties>
+      </component>
+      <component id="c15fa" class="javax.swing.JButton" binding="btnEmpresa">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="70" height="34"/>
+          <minimumSize width="70" height="34"/>
+          <preferredSize width="70" height="34"/>
+          <text value="GESTIÓN DE EMPRESA"/>
+        </properties>
+      </component>
+      <component id="c7c6d" class="javax.swing.JButton" binding="btnReservas">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="70" height="34"/>
+          <minimumSize width="70" height="34"/>
+          <preferredSize width="70" height="34"/>
+          <text value="GESTIÓN DE RESERVAS"/>
+        </properties>
+      </component>
+      <hspacer id="f4c6e">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

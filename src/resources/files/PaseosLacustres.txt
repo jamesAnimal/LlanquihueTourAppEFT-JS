@@ -1,0 +1,3 @@
+101;Paseo Todos los Santos;2.5;Puerto Varas;25000.0;Mañana;Catamarán;false;50
+102;Navegación Lago Villarrica;1.0;Pucón;15000.0;Tarde;Lancha;true;10
+103;Tour Islas de Chiloé;4.0;Castro;35000.0;Mañana;Transbordador;false;100
